@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="129.581" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-18T16:15:05.515893800Z">
+<testcase classname="User Registration and Login" name="Register with valid details &amp; Login with the same credentials" time="129.16">
+<system-out><![CDATA[
+Given I open the Magento homepage...........................................passed
+When I navigate to the registration page....................................passed
+And I fill the registration form with valid data............................passed
+And I submit the registration form..........................................passed
+Then I should see a registration success message............................passed
+Given I open the Magento homepage...........................................passed
+When I navigate to the login page...........................................passed
+And I enter valid login credentials.........................................passed
+And I click the login button................................................passed
+Then I should be logged in successfully.....................................passed
+And I should get logged out successfully....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
