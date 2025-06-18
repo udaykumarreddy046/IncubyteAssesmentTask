@@ -22,22 +22,7 @@ This project is an automated testing framework built using **Java**, **Selenium 
 
 ## 📁 Project Structure
 
-incubyteAID/
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── com.magento.pages/ # Page classes (POM)
-│ │ └── com.magento.steps/ # Step definitions
-│ │ └── com.magento.utils/ # Utility classes
-│ └── resources/
-│ └── features/ # Feature files
-├── src/test/java/
-│ └── com.magento.runners/ # TestRunner class
-├── target/ # Compiled files & reports
-│ └── cucumber-reports/ # HTML/JSON reports
-├── pom.xml # Maven configuration
-├── Magento_Test_Cases.xlsx # Manual test cases
-└── README.md # Project documentation
+![image](https://github.com/user-attachments/assets/553fe233-c5fb-40e6-8c9a-70f846653e11)
 
 
 
@@ -54,14 +39,14 @@ incubyteAID/
 4. **Run Cucumber Tests:**
    Right-click on TestRunner.java and select Run As → JUnit Test
 
-📄 Feature Files
-register.feature: User registration scenarios
+## 📄 Feature Files
+1.register.feature: User registration scenarios(can be ignored)
 
-login.feature: Login and logout scenarios
+2.login.feature: Login and logout scenarios(can be ignored)
 
-fullflow.feature: End-to-end scenarios including registration and login
+3.fullflow.feature: End-to-end scenarios including registration and login
 
-📊 Reports
+## 📊 Reports
 After execution, detailed reports are generated in the /target/cucumber-reports/ directory:
 
 report.html: Interactive test report
