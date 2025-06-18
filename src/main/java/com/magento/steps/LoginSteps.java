@@ -37,11 +37,11 @@ public class LoginSteps {
 	@Then("I should get logged out successfully")
 	public void logout() throws InterruptedException {
 		loginPage.logout();
-		//Validation of successful logout with 
-//    	Thread.sleep(1000);
-    	//Assert.assertEquals(driver.getTitle(), "magento.softwaretestingboard.com");
-    
-		System.out.println(driver.getTitle());
+		// Validation of successful logout with
+		// Thread.sleep(1000);
+		// Assert.assertEquals(driver.getTitle(), "magento.softwaretestingboard.com");
+
+//		System.out.println(driver.getTitle());
 //		System.out.println(DriverUtils.getPageTitle());
 		DriverUtils.quitDriver();
 	}

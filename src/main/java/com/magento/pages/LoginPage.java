@@ -49,12 +49,14 @@ public class LoginPage extends BasePage {
 	}
 
 	public boolean isLoginSuccessful() {
+		
 		DriverUtils.waitForVisibility(accountHeader);
 		Assert.assertEquals(accountHeader.getText(), "Welcome, Uday R!");
 		return accountHeader.isDisplayed();
 	}
 
 	public void logout() throws InterruptedException {
+		
 		DriverUtils.waitForVisibility(changeLink);
 		changeLink.click();
 		signOutLink.click();

@@ -47,6 +47,7 @@ public class RegisterPage extends BasePage {
     }
 
     public void submitForm() {
+    	
         submitBtn.click();
     }
 
