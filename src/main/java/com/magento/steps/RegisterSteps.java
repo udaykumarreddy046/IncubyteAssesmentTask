@@ -30,7 +30,7 @@ public class RegisterSteps {
 
 	@When("I fill the registration form with valid data")
 	public void fillRegistrationForm() {
-		 registeredEmail = "user_" + UUID.randomUUID().toString().substring(0, 5) + "@example.com";
+		 registeredEmail = "user_" + UUID.randomUUID().toString().substring(0, 5) + "@udai.com";
 		registeredPassword = "Password123!";
 		registerPage.fillRegistrationForm("Uday", "R", registeredEmail, registeredPassword);
 	}
