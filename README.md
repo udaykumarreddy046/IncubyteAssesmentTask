@@ -14,9 +14,9 @@ This project is an automated testing framework built using **Java**, **Selenium 
 - Maven
 - Selenium WebDriver
 - Cucumber (BDD)
-- JUnit / TestNG (Optional)
+- JUnit 
 - Page Object Model (POM)
-- Extent/Cucumber HTML Reports
+- ECucumber HTML Reports
 
 ---
 
@@ -40,17 +40,17 @@ This project is an automated testing framework built using **Java**, **Selenium 
    Right-click on TestRunner.java and select Run As → JUnit Test
 
 ## 📄 Feature Files
-1.register.feature: User registration scenarios(can be ignored)
 
-2.login.feature: Login and logout scenarios(can be ignored)
+1. `register.feature` – User registration scenarios *(can be ignored)*
+2. `login.feature` – Login and logout scenarios *(can be ignored)*
+3. `fullflow.feature` – End-to-end scenarios including registration and login
 
-3.fullflow.feature: End-to-end scenarios including registration and login
+---
 
 ## 📊 Reports
-After execution, detailed reports are generated in the /target/cucumber-reports/ directory:
 
-report.html: Interactive test report
+After execution, detailed reports are generated in the `/target/cucumber-reports/` directory:
 
-cucumber.json: JSON formatted results
-
-Magento_Test_Cases.xlsx: Manual test case documentation
+- `report.html` – Interactive test report
+- `cucumber.json` – JSON formatted results
+- `Magento_Test_Cases.xlsx` – Manual test case documentation
